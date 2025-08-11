@@ -19,7 +19,6 @@ function AddTask({ onAddTaskSubmit }) {
         value={description}
         onChange={(event) => setDescription(event.target.value)}
       />
-
       <button
         style={{ cursor: "pointer" }}
         onClick={() => {
@@ -32,7 +31,7 @@ function AddTask({ onAddTaskSubmit }) {
         }}
         className="bg-slate-500 text-white px-4 py-2 rounded-md font-medium"
       >
-        Adicionar
+        Adicionar tarefa
       </button>
     </div>
   );
