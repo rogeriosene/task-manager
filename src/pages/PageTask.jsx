@@ -2,7 +2,7 @@ import { ChevronLeft } from "lucide-react";
 import { useNavigate, useSearchParams } from "react-router-dom";
 import Title from "../components/Title";
 
-function TaskPage() {
+function PageTask() {
   const navigate = useNavigate();
   const [SearchParams] = useSearchParams();
   const title = SearchParams.get("title");
@@ -29,4 +29,4 @@ function TaskPage() {
   );
 }
 
-export default TaskPage;
+export default PageTask;
